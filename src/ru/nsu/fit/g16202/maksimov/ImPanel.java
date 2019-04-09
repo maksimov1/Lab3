@@ -6,12 +6,14 @@ import java.awt.image.BufferedImage;
 
 public class ImPanel extends JPanel {
     private BufferedImage canvas;
+
     public ImPanel(){
         super();
     }
 
     public void setCanvas(BufferedImage canvas) {
         this.canvas = canvas;
+
 
     }
 

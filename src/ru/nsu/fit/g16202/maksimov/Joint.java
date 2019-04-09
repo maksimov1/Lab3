@@ -8,6 +8,7 @@ public class Joint {
     private Double value;
     private int marker;
 
+
     public Joint(Double _x, Double _y){
         x = _x;
         y = _y;
